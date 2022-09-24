@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-</head>
-<body>
-    <h1>Testing</h1>
-    <footer>Hello World!</footer>
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WDD 230 - Course Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body onload="allMyFunctions()">
+    <script src="scripts.js"></script>
+
+    <header>
+      <div class = "home-grid">
+        <div style="width:30%">
+      <img class = "img-box"
+        src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/1F7A2511.jpg?v=1663845251111" align: right
+        alt="Profile image of the student Adil Rafi facing forward"
+        width="200%"
+      />
+        </div>
+        <div style="width:100%;align:right;">
+          
+        <h1>Adil Rafi</h1>
+          </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr/>
+      </section>
+
+      <ul>
+        <li>Lesson 2: <a href="lesson2.html">Title</a></li>
+        <li>Lesson 3: <a href="lesson3.html">Title</a></li>
+        <li>Lesson 4: <a href="lesson4.html">Title</a></li>
+        <li>Lesson 5: <a href="lesson5.html">Title</a></li>
+        <li>Lesson 6: <a href="lesson6.html">Title</a></li>
+        <li>Lesson 7: <a href="lesson7.html">Title</a></li>
+        <li>Lesson 8: <a href="lesson8.html">Title</a></li>
+        <li>Lesson 9: <a href="lesson9.html">Title</a></li>
+        <li>Lesson 10:<a href="lesson10.html">Title</a></li>
+        <li>Lesson 11:<a href="lesson11.html">Title</a></li>
+      </ul>
+      
+      <hr>
+      
+      <p>
+      Some lessons may need more than one activity/assignment links.
+      </p>
+    </main>
     
-</body>
+    <footer>
+      <p>
+        &copy;<span id="currentyear"></span> | Adil Rafi | Lahore, Pakistan |
+      </p>
+      <div>Last Updated: <span id="lastmodified"></span></div>
+    </footer>
+    <script src="js/currentyear.js"></script>
+
+    <script src="js/lastmodified.js"></script>
+  </body>
 </html>
