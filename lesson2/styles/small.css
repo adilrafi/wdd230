@@ -1,4 +1,4 @@
-/* Lesson 2 CSS-phone view */
+/* week 2 CSS-phone view */
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
@@ -47,7 +47,7 @@ body {
 
 header,
 footer {
-    background-color: #ffcccc;
+    background-color: #DEB887;
     color: black;
     text-align: center;
     padding: 1.25rem;
