@@ -1,0 +1,87 @@
+/* Lesson 2 CSS-phone view */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+main {
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+
+
+body,
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    width: 750px;
+    
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(250, 245, 245);
+}
+
+header,
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 10px;
+    width: 760px;
+}
+
+.one,
+.two,
+.three {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 4px 4px 5px #484848;
+}
+
+
+main article img {
+    border: 2px solid white;
+    box-shadow: 6px 6px 10px #484848;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+
+}
+
+.farmtohome,
+.dunkindonuts,
+.BalloonQueen {
+    text-align: left;
+}
