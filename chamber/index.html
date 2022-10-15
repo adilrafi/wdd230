@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Home Page</title>
+    <meta name="description" content="This page will contain my weather site Home Page.">
+
+    <link rel="shortcut icon" href="favicon.ico/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+
+    <link rel="shortcut icon" href="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/favicon.JPG?v=1665678256730">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small-chamber.css" rel="stylesheet">
+    <link href="styles/medium-chamber.css" rel="stylesheet">
+    <link href="styles/large-chamber.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate()">
+    <script src="js/currentdate.js"></script>
+
+    <header>
+        <picture>
+            <img src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/weatherinfologo.JPG?v=1664869682065" alt="Site Logo.">
+        </picture>
+        <section class="heading">
+            <h1>Weather Information</h1>
+            <div class="motto">Need Weather Information, Here It Is!</div>
+            <div><span id="currentdate"></span></div>
+        </section>
+
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="chamber.html">Home</a></li>
+            <li><a href=".html">Walled City</a></li>
+            <li><a href=".html">Model Town</a></li>
+            <li><a href=".html">Defence</a></li>
+            <li><a href=".html">Storm Center</a></li>
+            <li><a href=".html">Gallery</a></li>
+
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Lahore Pakistan</h2>
+
+        <div class="contentbox">Weather Summary for All Seasons</div>
+        <div class="contentbox">Activities and Places to Visit</div>
+        <div class="contentbox">Forecast</div>
+        <div class="contentbox">Contact Information</div>
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Weather Information | Adil Rafi
+        </p>
+        
+    </footer>
+
+    <script src="currentdate.js"></script>
+
+    <script src="toggle.js"></script>
+
+</body>
+
+</html>
