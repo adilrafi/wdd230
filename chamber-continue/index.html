@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Planning Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+    <link rel="shortcut icon" href="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/favicon.JPG?v=1665678256730">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link href="small-chamber-continue.css" rel="stylesheet">
+    <link href="medium-chamber-continue.css" rel="stylesheet">
+    <link href="large-chamber-continue.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="currentdate.js"></script>
+    <script src="pancakes.js"></script>
+    <div id="pan" class="cakes">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    </div>
+
+    <header>
+        <picture>
+            <img src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/Latest.JPG?v=1666381637672" alt="site logo">
+        </picture>
+        <section class="heading">
+            <h1>Weather Information</h1>
+            <div class="motto">Need Weather Information, Here It Is!</div>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="chamber-continue.html">Home</a></li>
+            <li><a href="preston-5.html">Walled City</a></li>
+            <li><a href="#">Model Town</a></li>
+            <li><a href="#">Defence</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Lahore, Pakistan</h2>
+
+        <div class="banner-box">
+            <img class="banner-image" src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/1000_F_376292243_RGN9bvSYeX1CCysn7NvpGMHvIdpVd85u.jpg?v=1666386115735" alt="Banner image of Lahore Fort">
+            <!--This is my my hero image-->
+
+            <section class="weathersummary">
+                <!--This is my weather box that is placed on my hero image-->
+                <h3>Weather Summary</h3>
+                <p>Current: Sunny</p>
+                <p>Temperature: 69°F</p>
+                <p>Humidity: 65%</p>
+                <p>Precipation: 1%</p>
+                <p>Wind Speed: 1mph</p>
+            </section>
+        </div>
+        <div class="contentbox">
+            <!--This is my table-->
+
+            <table class="center">
+                <tr>
+                    <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+
+                </tr>
+
+                <tr>
+                    <!--These are my two rows-->
+                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
+                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
+                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
+                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
+                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
+                </tr>
+
+                <tr>
+                    <td>87°/62°</td>
+                    <td>87°/63°</td>
+                    <td>87°/63°</td>
+                    <td>87°/64°</td>
+                    <td>86°/62°</td>
+                </tr>
+
+
+
+            </table>
+
+
+
+
+
+
+        </div>
+        <div class="contentbox">
+            <h3>Looking Forward!</h3>
+            <!--This is my article-->
+
+            <img class="flowers" src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/1-Blog-Body-8.jpg?v=1666387417541" alt="Flowers Festival.">
+            <!--This is the image for my article-->
+            <p>We are proud to announce one of our most colorful and exciting events here in our beloved Lahore City
+                from October 30 2022 til November 30 2022, from morning until 6 pm. We will celebrate our rich
+                traditions with our yearly Flowers Festival. Come ready to be amazed by the variety of colors, designs
+                and fragrances that will bring colors in your life. This activity will be a free event sponsored by our City Council
+                members; come ready to enjoy a day at the park with friends and family and to make memories that will
+                last for years to come. </p>
+            <p>Families, friends, and visitors from out of town gather year after year to spend an afternoon filled with
+                entertainment and live music provided by some of our talented local musicians. We will also have vendors
+                with delicious foods for purchase at low prices! </p>
+            <p>Don't miss this wonderful opportunity to strengthen bonds and friendship here in Lahore City.The
+                weather will be fantastic to spend it outdoors, start spreading the news and
+                save the date!</p>
+        </div>
+
+        <section class="contentbox4">
+            <!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
+
+            <iframe class="map"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435521.407931475!2d74.05419939643701!3d31.482635229136843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1666386513905!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                width="600" height="450" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"</iframe>
+                
+
+
+
+            <div>
+                <h3>Contact Information</h3>
+                <p><span>&#x1F4CC;</span>C Block, LDA, Walton Road, Lahore, Pakistan 54000</p>
+                <p><span>&#x1F4DE;</span>(302) 456-2909</p>
+                <p><span>&#x1F4E7;</span>weather@weather.info</p>
+
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/fb.JPG?v=1666289379945"
+                        alt="Facebook logo"></a>
+
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/twitter.JPG?v=1666289390709"
+                        alt="Twiter logo"></a>
+                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/youtube.JPG?v=1666289396870"
+                        alt="YouTube logo"></a>
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Weather Information | Adil Rafi</p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+    <script src="pancakes.js"></script>
+    <script src="currentdate.js"></script>
+
+    <script src="toggle.js"></script>
+</body>
+
+</html>
