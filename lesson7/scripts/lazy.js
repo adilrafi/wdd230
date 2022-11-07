@@ -1,38 +1,40 @@
-const imagesToLoad = document.querySelectorAll('img[data-src]'); //This line of code finds all the images. The data-src reference all the images with lazy loading.
-//images to load=list of items.
+const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-//intersectionObserver let you know when an observed element enters or exits the browser's viewport(tracks elements scrolling into view.)
-
-const imgOptions = { //this code is telling the system when to load the images.This two properties are part of the Observer.
-    threshold: 1, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
-    rootMargin: "0px 0px 50px 0px" //top, right, bottom, left
-
+const imgOptions = {
+    rootMargin: '0px 0px 50px 0px',
+    threshold: 1
 };
 
-
-const loadImages = (image) => { //this is a function
-    image.setAttribute('src', image.getAttribute('data-src'));
+const loadImages = (image) => {
+    let valor = image.getAttribute('data-src');
+    image.setAttribute('src', valor);
     image.onload = () => {
-        image.removeAttribute('data-src'); //when it gets load the blur will show but once is loaded the blur is removed. This links to my css.
-
+        image.removeAttribute('data-src');
     };
 };
+debugger
+if ('IntersectionObserver' in window) 
+{
+    const imgObserver = new IntersectionObserver((items, imgObserver) => {
+    
+    items.forEach(item => {
+        debugger;
+        if (item.isIntersecting) {
+            loadImages(item.target);
+            imgObserver.unobserve(item.target);
+        }
+    })    ;
+    }, 
+    
+    imgOptions);
 
-if ('IntersectionObserver' in window) { //if observer is supported in window the following code will be executed
-    const imgObserver = new IntersectionObserver((items) => {
-        items.forEach((item) => {
-            if (item.isIntersecting) {
-                loadImages(item.target);
-                imgObserver.unobserve(item.target);
-            }
-        });
-    }, imgOptions);
-    //load images if necessary
-    imagesToLoad.forEach((img) => {
+    imagesToLoad.forEach(img => {
         imgObserver.observe(img);
     });
-} else { //once we preload the images we want to stop observing. Load all images if not supported 
-    imagesToLoad.forEach((img) => {
-        loadImages(img);
-    });
+} 
+
+else {
+    imagesToLoad.forEach(img => {
+        loadImages(img)
+    })
 }

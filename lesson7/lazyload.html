@@ -1,49 +1,43 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Lazy Loading</title>
-    <meta name="description" content="lazy loading of images">
-    <link href="main-lazy.css" rel="stylesheet">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+   
+    <link rel="stylesheet" href="styles/lazy.css">
 </head>
 
 <body>
-    <h1>Progressive Loading of Images</h1>
-
+    <header>
+        <h1 class="title">Lazy Load</h1>
+    </header>
     <main>
-
-        <picture>
-            <img src='images/placeholder.jpg' data-src="images/pink300x400.jpg" alt="pink wild flower" />
-        </picture>
-
-        <picture>
-            <img src='images/placeholder.jpg' data-src="images/pink300x400.jpg" alt="pink wild flower" />
-        </picture>
-
-        <picture>
-            <img src='images/placeholder.jpg' src="images/orange300x400.jpg" alt="orange wild flower" />
-        </picture>
-
-        <picture>
-            <img src='images/placeholder.jpg' data-src="images/pink300x400.jpg" alt="pink wild flower" />
-        </picture>
-
-        <picture>
-            <img src='images/placeholder.jpg' data-src="images/white300x400.jpg" alt="white wild flower" />
-        </picture>
-
-
+        <section class="pictures">
+            <picture>
+                <img src="./images/placeholder.png" data-src="images/Modric.jpg" alt="Modric">
+            </picture>
+            <picture>
+                <img src="./images/placeholder.png" data-src="images/Messi.jpg" alt="Messi">
+            </picture>
+            <picture>
+                <img src="./images/placeholder.png" data-src="images/Arnold.jpg" alt="Arnold">
+            </picture>
+            <picture>
+                <img src="./images/placeholder.png" data-src="images/Faraon.jpg" alt="Faraon">
+            </picture>
+            <picture>
+                <img src="./images/placeholder.png" data-src="images/Ronaldo.jpg" alt="Ronaldo">
+            </picture>
+        </section>
     </main>
 
-
-
-    <script src="scripts/lazy.js"></script>
+    <script defer src="scripts/lazy.js"></script>
 
 </body>
+
 
 
 
