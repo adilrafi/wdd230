@@ -29,8 +29,6 @@
         font-family: 'Lato', sans-serif;
         border: thin silver solid;
     }
-    .mygallery :hover {
-        box-shadow: 0 0 50px #4cc9f0;
-    }
+
 
 }
