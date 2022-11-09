@@ -8,15 +8,15 @@
     <meta name="description" content="This page will contain my weather site image gallery.">
 
     <link rel="shortcut icon" href="https://cdn.glitch.global/b3e327de-6208-4369-bd73-077a03f7775a/favicon.JPG?v=1665678256730">
-    <link rel="stylesheet" href="normalize.css">
-    <link href="small-discover.css" rel="stylesheet">
-    <link href="medium-discover.css" rel="stylesheet">
-    <link href="large-discover.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small-discover.css" rel="stylesheet">
+    <link href="styles/medium-discover.css" rel="stylesheet">
+    <link href="styles/large-discover.css" rel="stylesheet">
 </head>
 
 <body onload="currentDate(); pancakes()">
-    <script src="js/currentdate.js"></script>
-    <script src="js/pancakes.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/pancakes.js"></script>
     <div id="pan" class="cakes">"Saturday = Pancakes in the Park! 9:00. Saturday at the Race Course park."
     </div>
 
@@ -33,13 +33,13 @@
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="../lesson9/index.html">Home</a></li>
-            <li><a href="../lesson-10/preston-10.html">Preston</a></li>
+            <li><a href=".html">Home</a></li>
+            <li><a href=".html">Walled City</a></li>
             <!--<li ><a href="../lesson6/preston-6.html">Preston</a></li>-->
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Model Town</a></li>
+            <li><a href="#">Defence</a></li>
             <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+            <li class="active"><a href="discover.html">Gallery</a></li>
         </ul>
     </nav>
     
@@ -110,15 +110,15 @@
         <p><span id="copy">&copy;</span> Weather Information | Adil Rafi</p>
         <div><span id="currentdate"></span></div>
     </footer>
-    <script src="pancakes.js"></script>
+    <script src="scripts/pancakes.js"></script>
     <!--This is the function that creates the banner on top of my header every Friday-->
-    <script src="currentdate.js"></script>
-    <script src="toggle.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/toggle.js"></script>
     <!--This is the function that helps my hamburger menu open and close-->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
-    <script src="webfontload.js"></script>
-    <script src="imagehandling.js"></script>
+    <script src="scripts/webfontload.js"></script>
+    <script src="scripts/imagehandling.js"></script>
     <!--lazy loading-->
 
 </body>
