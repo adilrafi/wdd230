@@ -192,9 +192,7 @@ img[data-src] {
     transition: filter 0.6s;
     max-width:100%; 
 }
-.mygallery :hover {
-    box-shadow: 0 0 50px #4cc9f0;
-}
+
 
 #copy {
     font-size: 20px;
