@@ -56,14 +56,15 @@
     }
 
     .mygallery figcaption {
-        background-color: #FFECD1;
+        background-color: #4cc9f0;
         border: thin silver solid;
         padding: 5px;
         text-align: center;
         font-family: 'Lato', sans-serif;
+    
     }
     .mygallery :hover {
-        box-shadow: 0 0 50px black;
+        box-shadow: 0 0 50px #4cc9f0;
     }
 
 }

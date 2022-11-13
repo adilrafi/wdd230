@@ -23,11 +23,12 @@
         grid-gap: 10px;
     }
     .mygallery figcaption {
-        background-color: #FFECD1;
+        background-color: #4cc9f0;
         padding: 5px;
         text-align: center;
         font-family: 'Lato', sans-serif;
         border: thin silver solid;
     }
+
 
 }
