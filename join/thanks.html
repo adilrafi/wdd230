@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Planning Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+    <link rel="shortcut icon" href="https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/favicon.JPG?v=1668468733127">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small-thanks.css" rel="stylesheet">
+    <link href="styles/medium-thanks.css" rel="stylesheet">
+    <link href="styles/large-thanks.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/pancakes.js"></script>
+    <div id="pan" class="cakes">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    </div>
+
+    <header>
+        <picture class="logo">
+            <img src="https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Latest.JPG?v=1668468750159" alt="logo photo">
+        </picture>
+        <section class="heading">
+            <h1>Weather Information</h1>
+            <div class="motto">Need Weather Information, Here It Is!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../chamber-continue/index.html">Home</a></li>
+            <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
+            <li><a href="#.html">Walled City</a></li>
+            <li><a href="#">Model Town</a></li>
+            <li><a href="#">Defence</a></li>
+            <li class="active"><a href="../join/join.html">Storm Center</a></li>
+            <li><a href="../gallery/discover.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+        <main class="letter">
+            <p class="thanks">Thank you!</p>
+            <p>Your submission has been received. We appreciate your opinion.<br>
+                (If needed, you will be contacted
+                shortly)</p>
+
+        </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Weather Information | Adil Rafi</p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+    <script src="scripts/pancakes.js"></script>
+    <!--This is the function that creates the banner on top of my header every Friday-->
+    <script src="scripts/currentdate.js"></script>
+
+    <script src="scripts/toggle.js"></script>
+    <!--This is the function that helps my hamburger menu open and close-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!--This is the new way I will reference Google Fonts, always add this code-->
+    <script src="scripts/webfontload.js"></script>
+    <script src="scripts/adjustrating.js"></script>
+    <script src="scripts/selectresponse.js"></script>
+</body>
+
+</html>
