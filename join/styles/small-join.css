@@ -321,7 +321,7 @@ table {
 
 }
 tbody tr:nth-child(odd) {
-	background-color: #76d8d3 ;
+	background-color: #d3efed ;
 }
 table td:nth-child(1) {
     text-align: left;
