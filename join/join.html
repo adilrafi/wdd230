@@ -85,17 +85,24 @@
                     <input class="box" type="text" name="title"></label>
                  <label class="top">  Business Description
                     <input class="box" type="text" name="companyDescription"></label>
-                 <label class="top">  Hidden <input type="text" name="hidden" ></label>
+                 <label class="top">  Hidden
+                    <input class="box" type="text" name="hidden" ></label>
   
               </fieldset>
 
             <fieldset>
                 <legend>Desired Chamber Membership Level</legend>
+
+                <label class="middle">Storm Region
+                    <select class="smallbox" name="region" onchange="selectResponse()">
+                        <option value="select" disabled selected>Select Region</option>
+                        <option value="Preston">Non Profit (Free)</option>
+                        <option value="Soda Springs">Bronze ($100/year)</option>
+                        <option value="Fish Haven">Silver ($175/year)</option>
+                        <option value="Fish Haven">Gold ($225/year)</option>
+                    </select></label>
             
-                <label class="memberLevel"><input type="radio" name="memberLevel" value="nonProfit"> Non Profit (Free)</label>
-                <label class="memberLevel"><input type="radio" name="memberLevel" value="bronze"> Bronze ($100/year)</label>
-                <label class="memberLevel"><input type="radio" name="memberLevel" value="silver"> Silver ($175/year)</label>
-                <label class="memberLevel"><input type="radio" name="memberLevel" value="gold"> Gold ($225/year)</label>
+
 
 
             <!--form submission button-->
