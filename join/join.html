@@ -75,7 +75,7 @@
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
                         required></label>
                 <!--business name-->
-                <label class="top" for="name">Business Name*
+                <label class="top" for="name">Business Name/Title*
                     <input class="box" type="text" id="name" name="business_name" pattern="[A-Z a-z]{5,}" required></label>
 
 
@@ -84,93 +84,10 @@
                     <select class="smallbox" name="region" onchange="selectResponse()">
                         <option value="select" disabled selected>Select Membership Level</option>
                         <option value="Preston">non profit organizations - $0 Fee</option>
-                        <option value="Soda Springs">Bronze Membership - $25 Fee</option>
-                        <option value="Fish Haven">Silver Membership - $50 Fee</option>
-                        <option value="Fish Haven">Gold Membership - $100 Fee</option>
-                    </select></label>                
-
-
-
-
-
-
-
-                <!--zip code-->
-                <label class="top" for="zip">ZIP Code*
-                    <input class="box" type="number" id="zip" name="zip_code" required></label>
-
-            </fieldset>
-
-
-
-            <!--storm -->
-            <fieldset class="form">
-                <legend>Storm Information</legend>
-                <!--strom date-->
-                <label class="middle">Storm Date
-                    <input class="smallbox" type="date" id="storm_date" name="storm_date" required></label>
-
-
-                <!--storm type-->
-                <label class="middle" for="storm-type-choice">Storm Type
-                    <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice"></label>
-                <datalist id="storm-types">
-                    <option value="flash flood">
-                    <option value="hail">
-                    <option value="thunderstorm">
-                    <option value="tornado">
-                </datalist>
-
-
-                <!--storm severity-->
-                <!--RANGE-->
-                <label class="middle" for="rating">Storm Severity (1 minimal risk/10 high risk)
-                    &nbsp;&nbsp;&nbsp;
-                    <input class="smallbox" type="range" id="rating" value="1" min="1" max="10" step="1"
-                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">1</span>
-                </label>
-
-                <datalist id="tickmarks">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                </datalist>
-
-
-                <!--select region-->
-                <label class="middle">Storm Region
-                    <select class="smallbox" name="region" onchange="selectResponse()">
-                        <option value="select" disabled selected>Select Region</option>
-                        <option value="Preston">Walled City</option>
-                        <option value="Soda Springs">Model Town</option>
-                        <option value="Fish Haven">Defence</option>
+                        <option value="Soda Springs">Bronze - $25 Fee</option>
+                        <option value="Fish Haven">Silver - $50 Fee</option>
+                        <option value="Fish Haven">Gold - $100 Fee</option>
                     </select></label>
-
-
-                <!--User in danger-->
-                <!--RADIO-->
-                <label class="middle">User in-Danger Level</label>
-                <div>
-                    <input type="radio" id="danger1" name="danger" value="1">
-                    <label for="danger1">Yes</label>
-                </div>
-                <div class="selection">
-                    <input type="radio" id="danger2" name="danger" value="2">
-                    <label for="danger2">Maybe</label>
-                </div>
-                <div class="selection">
-                    <input type="radio" id="danger3" name="danger" value="3">
-                    <label for="danger3">No</label>
-                </div>
-
             </fieldset>
 
 
