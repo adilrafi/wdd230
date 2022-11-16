@@ -35,5 +35,8 @@
         grid-gap: 30px;
     
     }
+    section.membership {
+        grid-column: 2/5;
+     }
 
 }

@@ -15,5 +15,21 @@ nav ul.hide {
     display: flex;
 }
 
+section.membership {
+    grid-column: 4/7;
+ }
+
+ table {
+     min-width: 311px;
+ }
+
+ table td:nth-child(1) {
+     width: 30%;
+ }
+ table {
+     width: 95%;
+     margin-left: 2%;
+
+ }
 
 }
