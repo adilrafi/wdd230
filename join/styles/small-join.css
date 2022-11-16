@@ -291,3 +291,16 @@ label.submitButton {
     font-size: 15px;
     border: 2px solid black;
 }
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
