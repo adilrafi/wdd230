@@ -14,8 +14,6 @@
 nav ul.hide {
     display: flex;
 }
-section.membership {
-    grid-column: 4/7;
- }
+
 
 }

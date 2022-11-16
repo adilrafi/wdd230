@@ -31,7 +31,15 @@ footer {
 
 }
 
-
+.contentbox4 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4cc9f0;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15px;
+}
 
 header {
     display: flex;
