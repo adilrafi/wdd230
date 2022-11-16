@@ -74,6 +74,25 @@
                 <label class="top" for="phone">Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
                         required></label>
+                <!--business name-->
+                <label class="top" for="name">Business Name*
+                    <input class="box" type="text" id="name" name="business_name" pattern="[A-Z a-z]{5,}" required></label>
+
+
+                <!--membership level-->
+                <label class="middle">Membership Level
+                    <select class="smallbox" name="region" onchange="selectResponse()">
+                        <option value="select" disabled selected>Select Membership Level</option>
+                        <option value="Preston">non profit organizations - $0 Fee</option>
+                        <option value="Soda Springs">Bronze Membership - $25 Fee</option>
+                        <option value="Fish Haven">Silver Membership - $50 Fee</option>
+                        <option value="Fish Haven">Gold Membership - $100 Fee</option>
+                    </select></label>                
+
+
+
+
+
 
 
                 <!--zip code-->
