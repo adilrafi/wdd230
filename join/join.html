@@ -74,24 +74,26 @@
                 <label class="top" for="phone">Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
                         required></label>
-                <!--business name-->
-                <label class="top" for="name">Business Name/Title*
-                    <input class="box" type="text" id="name" name="business_name" pattern="[A-Z a-z]{5,}" required></label>
-
-
-                <!--membership level-->
-                <label class="middle">Membership Level
-                    <select class="smallbox" name="region" onchange="selectResponse()">
-                        <option value="select" disabled selected>Select Membership Level</option>
-                        <option value="Preston">non profit organizations - $0 Fee</option>
-                        <option value="Soda Springs">Bronze - $25 Fee</option>
-                        <option value="Fish Haven">Silver - $50 Fee</option>
-                        <option value="Fish Haven">Gold - $100 Fee</option>
-                    </select></label>
-                <!--business description-->
-                <label class="submitButton" for="msg">Business Description:</label>
-                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
             </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Your Business Information:  </legend>
+                <label class="company"> Business Name* <input type="text" name="businessName" required></label>
+                <label class="company">  Business Position Title <input type="text" name="title"></label>
+                 <label class="company">  Business Description <input type="text" name="companyDescription"></label>
+                 <label class="company">  Hidden <input type="text" name="hidden" ></label>
+  
+              </fieldset>
+            <br>
+            <fieldset>
+                <legend>Desired Chamber Membership Level</legend>
+            
+                <label class="memberLevel"><input type="radio" name="memberLevel" value="nonProfit"> Non Profit (Free)</label>
+                <label class="memberLevel"><input type="radio" name="memberLevel" value="bronze"> Bronze ($100/year)</label>
+                <label class="memberLevel"><input type="radio" name="memberLevel" value="silver"> Silver ($175/year)</label>
+                <label class="memberLevel"><input type="radio" name="memberLevel" value="gold"> Gold ($225/year)</label>
+
 
             <!--form submission button-->
             <input class="button" type="submit" value="Send Storm Report">
@@ -99,7 +101,112 @@
 
         </form>
         <!--end contact form-->
+        <section class="membership">
+            <h2>Membership Levels</h2>
 
+            <table>
+             <tr>
+               <th></th>  
+               <th>NP</th>
+               <th>Bronze</th>
+               <th>Silver</th>
+               <th>Gold</th>
+             </tr>
+             <tr>
+                 <td>Annual Fees</td>
+                 <td>Free</td>
+                 <td>$100</td>
+                 <td>$170</td>
+                 <td>$225</td>
+             </tr>
+             <tr>
+               <td>Chamber Newsletter</td>
+               <td>&#9989;</td>
+               <td>&#9989;</td>
+               <td>&#9989;</td>
+               <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Business Profile</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Chamber Badge</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Website Link</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Visibility Report</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Benefits Program</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Review Defender</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Up to 20 Photos</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+
+             <tr>
+                 <td>Spotlight Ads</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Event Discounts</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Ad Free Profile</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+             </tr>
+             <tr>
+                 <td>Free Training</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#10060;</td>
+                 <td>&#9989;</td>
+             </tr>
+           </table> 
+ 
+                 </section>
     
     </main>
 
