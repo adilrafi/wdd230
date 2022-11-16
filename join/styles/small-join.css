@@ -311,17 +311,17 @@ th, td {
     font-size: 1em;   
 }
 th {
-    background-color: #fee573;
+    background-color: #4cc9f0;
 }
 
 table {
     width: 100%;
-    background-color:rgba(255, 234, 7, 0.1);
+    background-color:#76dad3;
     border-collapse: collapse;
 
 }
 tbody tr:nth-child(odd) {
-	background-color: rgba(255, 234, 7, 0.1) ;
+	background-color: #76d8d3 ;
 }
 table td:nth-child(1) {
     text-align: left;
