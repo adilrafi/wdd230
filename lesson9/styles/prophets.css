@@ -44,6 +44,10 @@ footer {
     width: 60%;
 }
 
+img {
+    box-shadow: 0 0 50px black; 
+}
+
 @media screen and (max-width: 1280px) {
     .cards {
         grid-template-columns: 1fr 1fr;
