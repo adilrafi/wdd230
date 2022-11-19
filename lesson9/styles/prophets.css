@@ -1,84 +1,59 @@
-/*small view*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
 
-header h1 {
-    font-size: 40px;
-    color: #4d4d96;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Merriweather', 'serif';
-
+* {
+    font-family: 'Comfortaa', Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', Verdana, sans-serif;
+    color: whitesmoke;
+}
+h1 {
+    color: #F4B400
 }
 
-h2 {
-    font-size: 30px;
-    color: #003F87;
-    font-weight: bold;
-    padding-top: 15px;
-    margin-top: 5px;
-    font-family: 'Merriweather', 'serif';
+header, footer {
+    text-align: center;
+}
+footer {
+    padding-top: 20px;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr;
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 1rem;
+    background-color: #737373;
+    box-shadow: 0 0 30px gray;
+    justify-items: center;
 }
 
-main {
-    justify-content: center;
+.cards section {
     text-align: center;
-    background-color: #dddddd;
-    box-shadow: 0 0 50px black;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 25px;
+    padding: 1rem;
+    border: solid 2px #F4B400;
+    background-color: #4285F4;
+    max-width: 300px;
 }
-
-section {
-    background-color: #cec8ef;
-    border: solid black 1px;
-    margin: 5px;
-    padding: 10px;
+.cards section * {
+    display: block;
+    margin: 0 auto;
+    padding: 0.25rem;
 }
-
-p {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-family: 'serif';
-    font-size: 18px;
-    padding: 10px;
-    line-height: 25px;
-}
-
-img {
-    height: auto;
+.cards section img {
     width: 60%;
-    margin: 5px auto 10px auto;
-    box-shadow: 0 0 50px black; 
 }
 
-footer {
-    text-align: center;
-    font-size: larger;
-}
-
-
-
-/*medium view*/
-
-@media only screen and (min-width: 768px) {
-
+@media screen and (max-width: 1280px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/*large view*/
-@media only screen and (min-width: 1100px) {
-
-    .cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+@media screen and (max-width: 668px) {
+    body {
+        margin: 0;
     }
-
+    .cards {
+        grid-template-columns: 1fr;
+    }
 }
-
