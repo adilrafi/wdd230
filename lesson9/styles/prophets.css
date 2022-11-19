@@ -46,6 +46,7 @@ footer {
 
 img {
     box-shadow: 0 0 50px black; 
+    border: solid 5px white;
 }
 
 @media screen and (max-width: 1280px) {
