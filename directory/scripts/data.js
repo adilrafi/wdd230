@@ -5,8 +5,8 @@ fetch(requestURL)
     return response.json()
   })
   .then(function (jsonObject) {
-    const prophets = jsonObject['prophets']
-    prophets.forEach(element => {
+    const directory = jsonObject['directory']
+    directory.forEach(element => {
         let card = document.createElement('section')
         let h2 = document.createElement('h2')
         let span1 = document.createElement('span')
