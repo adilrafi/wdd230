@@ -198,3 +198,42 @@ img[data-src] {
 #copy {
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 1rem;
+    background-color: #4361ee;
+    box-shadow: 0 0 30px gray;
+    justify-items: center;
+}
+
+.cards section {
+    text-align: center;
+    padding: 1rem;
+    border: solid 5px white;
+    background-color: #4cc9f0;
+    max-width: 300px;
+}
+.cards section * {
+    display: block;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
+.cards section img {
+    width: 60%;
+}
+
+img {
+    box-shadow: 0 0 50px black; 
+    border: solid 5px white;
+}
