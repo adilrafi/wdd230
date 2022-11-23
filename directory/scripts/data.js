@@ -12,16 +12,19 @@ fetch(requestURL)
         let span1 = document.createElement('span')
         let span2 = document.createElement('span')
         let image = document.createElement('img')
+        let website = document.createElement('a')
 
         h2.textContent = element.name
         
-        span2.textContent = 'Place of birth: ' + element.birthplace
         image.setAttribute('src', element.imageurl)
+        span2.textContent = 'Place of birth: ' + element.birthplace
+        website.setAttribute('href', company.url);
 
         card.appendChild(h2)
         card.appendChild(span1)
         card.appendChild(span2)
         card.appendChild(image)
+        card.appendChild(website)
 
         document.querySelector('div.cards').appendChild(card)
     });
