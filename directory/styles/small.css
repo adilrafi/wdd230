@@ -237,3 +237,17 @@ img {
     box-shadow: 0 0 50px black; 
     border: solid 5px white;
 }
+
+@media screen and (max-width: 1280px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 668px) {
+    body {
+        margin: 0;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
