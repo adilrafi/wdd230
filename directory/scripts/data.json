@@ -2,7 +2,7 @@
   "prophets": [
     
     {
-      "name": "David O.",
+      "name": "Lahore Development Authoriy.",
       "lastname": "McKay",
       "birthdate": "8 September 1873",
       "death": "18 January 1970",
@@ -10,10 +10,10 @@
       "order": 9,
       "birthplace": "Utah",
       "numofchildren": 7,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LDA.JPG?v=1669236328004"
     },
     {
-      "name": "Joseph Fielding",
+      "name": "Walled City Lahore",
       "lastname": "Smith",
       "birthdate": "19 July 1876",
       "death": "2 July 1972",
@@ -21,10 +21,10 @@
       "order": 10,
       "birthplace": "Utah",
       "numofchildren": 11,
-      "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Walled%20City.JPG?v=1669236337313"
     },
     {
-      "name": "Harold B.",
+      "name": "Smart City Lahore",
       "lastname": "Lee",
       "birthdate": "28 March 1899",
       "death": "26 December 1973",
@@ -32,10 +32,10 @@
       "order": 11,
       "birthplace": "Idaho",
       "numofchildren": 2,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Smart%20City.JPG?v=1669236346836"
     },
     {
-      "name": "Spencer W.",
+      "name": "Pakistan Cricket Board",
       "lastname": "Kimball",
       "birthdate": "28 March 1895",
       "death": "5 November 1985",
@@ -43,10 +43,10 @@
       "order": 12,
       "birthplace": "Utah",
       "numofchildren": 4,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/PCB.JPG?v=1669236355879"
     },
     {
-      "name": "Ezra Taft",
+      "name": "zameen.com",
       "lastname": "Benson",
       "birthdate": "4 August 1899",
       "death": "30 May 1994",
@@ -54,10 +54,10 @@
       "order": 13,
       "birthplace": "Idaho",
       "numofchildren": 6,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lds-president-ezra-taft-benson-83244-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123"
     },
     {
-      "name": "Howard W.",
+      "name": "Lahore Traffic Police",
       "lastname": "Hunter",
       "birthdate": "14 November 1907",
       "death": "3 March 1995",
@@ -65,10 +65,10 @@
       "order": 14,
       "birthplace": "Idaho",
       "numofchildren": 3,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/howard-w-hunter-82921-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415"
     },
     {
-      "name": "Gordon B.",
+      "name": "Central City Police",
       "lastname": "Hinckley",
       "birthdate": "23 June 1910",
       "death": "27 January 2008",
@@ -76,10 +76,10 @@
       "order": 15,
       "birthplace": "Utah",
       "numofchildren": 5,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lds-president-gordon-b-hinckley-83335-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Lahore%20Police.JPG?v=1669236425201"
     },
     {
-      "name": "Thomas S.",
+      "name": "BiseLahore",
       "lastname": "Monson",
       "birthdate": "21 August 1927",
       "death": "2 January 2018",
@@ -87,10 +87,10 @@
       "order": 16,
       "birthplace": "Utah",
       "numofchildren": 3,
-      "imageurl": "https://media.ldscdn.org/images/media-library/church-leadership/first-presidency-and-quorum-of-the-twelve-apostles/president-thomas-s-monson-lds-560823-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Bise%20Lahore.JPG?v=1669236443170"
     },
     {
-      "name": "Russell M.",
+      "name": "Arfa Technologies",
       "lastname": "Nelson",
       "birthdate": "9 September 1924",
       "death": null,
@@ -98,7 +98,7 @@
       "order": 17,
       "birthplace": "Utah",
       "numofchildren": 10,
-      "imageurl": "https://media.ldscdn.org/images/media-library/church-leadership/first-presidency-and-quorum-of-the-twelve-apostles/russell-nelson-official-portrait-2018-2044670-gallery.jpg"
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Arfa.JPG?v=1669236475768"
     }
   ]
 }
