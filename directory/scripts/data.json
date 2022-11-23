@@ -5,7 +5,7 @@
       "name": "Lahore Development Authoriy.",
       
       "url": "https://lda.gop.pk/website/",
-      "death": "18 January 1970",
+      
       "length": 19,
       "order": 9,
       "birthplace": "Utah",
@@ -16,7 +16,7 @@
       "name": "Walled City Lahore",
       
       "url": "http://walledcitylahore.gop.pk/",
-      "death": "2 July 1972",
+      
       "length": 1,
       "order": 10,
       "birthplace": "Utah",
@@ -27,7 +27,7 @@
       "name": "Smart City Lahore",
       
       "url": "28 March 1899",
-      "death": "26 December 1973",
+      
       "length": 1,
       "order": 11,
       "birthplace": "Idaho",
@@ -38,7 +38,7 @@
       "name": "Pakistan Cricket Board",
       
       "url": "28 March 1895",
-      "death": "5 November 1985",
+      
       "length": 12,
       "order": 12,
       "birthplace": "Utah",
@@ -49,7 +49,7 @@
       "name": "zameen.com",
       
       "url": "4 August 1899",
-      "death": "30 May 1994",
+      
       "length": 9,
       "order": 13,
       "birthplace": "Idaho",
@@ -60,7 +60,7 @@
       "name": "Lahore Traffic Police",
       
       "url": "14 November 1907",
-      "death": "3 March 1995",
+      
       "length": 1,
       "order": 14,
       "birthplace": "Idaho",
@@ -71,7 +71,7 @@
       "name": "Central City Police",
       
       "url": "23 June 1910",
-      "death": "27 January 2008",
+      
       "length": 13,
       "order": 15,
       "birthplace": "Utah",
@@ -82,7 +82,7 @@
       "name": "BiseLahore",
       
       "url": "21 August 1927",
-      "death": "2 January 2018",
+      ,
       "length": 10,
       "order": 16,
       "birthplace": "Utah",
@@ -93,7 +93,7 @@
       "name": "Arfa Technologies",
       
       "url": "9 September 1924",
-      "death": null,
+      
       "length": 2,
       "order": 17,
       "birthplace": "Utah",
