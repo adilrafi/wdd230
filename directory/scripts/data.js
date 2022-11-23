@@ -17,7 +17,6 @@ fetch(requestURL)
         h2.textContent = element.name
         
         image.setAttribute('src', element.imageurl)
-        span2.textContent = 'Place of birth: ' + element.birthplace
         website.setAttribute('href', company.url);
 
         card.appendChild(h2)
