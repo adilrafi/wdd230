@@ -1,4 +1,4 @@
-const requestURL = 'https://adilrafi.github.io/wdd230/directory/scripts/data.json';
+const requestURL = 'https://adilrafi.github.io/wdd230/directory/scripts/directory-data.json';
 const cards = document.querySelector('.cards');
 
 async function getCompanies(){
