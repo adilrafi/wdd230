@@ -9,14 +9,13 @@ fetch(requestURL)
     prophets.forEach(element => {
         let card = document.createElement('section')
         let h2 = document.createElement('h2')
-        let span1 = document.createElement('span')
         let span2 = document.createElement('span')
         let image = document.createElement('img')
+        let website = document.createElement('a');
 
         h2.textContent = element.name
-        span1.textContent = 'Date of birth: ' + element.birthdate
-        span2.textContent = 'Place of birth: ' + element.birthplace
         image.setAttribute('src', element.imageurl)
+        website.setAttribute('href', company.url);
 
         card.appendChild(h2)
         card.appendChild(span1)
