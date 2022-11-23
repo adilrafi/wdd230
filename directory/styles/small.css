@@ -235,7 +235,7 @@ img[data-src] {
 
 img {
     box-shadow: 0 0 50px black; 
-    border: solid 5px rgb(96, 95, 95);
+    border: solid 5px rgb(180, 174, 174);
 }
 
 @media screen and (max-width: 1280px) {
