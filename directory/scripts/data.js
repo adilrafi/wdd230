@@ -13,7 +13,7 @@ fetch(requestURL)
         let span2 = document.createElement('span')
         let image = document.createElement('img')
 
-        h2.textContent = element.name + ' ' + element.lastname
+        h2.textContent = element.name
         span1.textContent = 'Date of birth: ' + element.birthdate
         span2.textContent = 'Place of birth: ' + element.birthplace
         image.setAttribute('src', element.imageurl)
