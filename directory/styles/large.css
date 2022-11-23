@@ -67,4 +67,8 @@
         box-shadow: 0 0 50px #4cc9f0;
     }
 
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
 }
