@@ -3,102 +3,91 @@
     
     {
       "name": "Lahore Development Authoriy.",
-      
-      "birthdate": "8 September 1873",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LDA.JPG?v=1669236328004",
+      "url": "https://lda.gop.pk/website/",
       "death": "18 January 1970",
       "length": 19,
       "order": 9,
-      "birthplace": "Utah",
-      "numofchildren": 7,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LDA.JPG?v=1669236328004"
+      "birthplace": "Utah"
+      
     },
     {
       "name": "Walled City Lahore",
-      
-      "birthdate": "19 July 1876",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Walled%20City.JPG?v=1669236337313",
+      "url": "http://walledcitylahore.gop.pk/",
       "death": "2 July 1972",
       "length": 1,
       "order": 10,
-      "birthplace": "Utah",
-      "numofchildren": 11,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Walled%20City.JPG?v=1669236337313"
+      "birthplace": "Utah"
+      
     },
     {
       "name": "Smart City Lahore",
-      
-      "birthdate": "28 March 1899",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Smart%20City.JPG?v=1669236346836",
+      "url": "28 March 1899",
       "death": "26 December 1973",
       "length": 1,
       "order": 11,
-      "birthplace": "Idaho",
-      "numofchildren": 2,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Smart%20City.JPG?v=1669236346836"
+      "birthplace": "Idaho"
     },
     {
       "name": "Pakistan Cricket Board",
-      
-      "birthdate": "28 March 1895",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/PCB.JPG?v=1669236355879",
+      "url": "28 March 1895",
       "death": "5 November 1985",
       "length": 12,
       "order": 12,
-      "birthplace": "Utah",
-      "numofchildren": 4,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/PCB.JPG?v=1669236355879"
+      "birthplace": "Utah"
+      
     },
     {
       "name": "zameen.com",
-      
-      "birthdate": "4 August 1899",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123",
+      "url": "4 August 1899",
       "death": "30 May 1994",
       "length": 9,
       "order": 13,
-      "birthplace": "Idaho",
-      "numofchildren": 6,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123"
+      "birthplace": "Idaho"
+      
     },
     {
       "name": "Lahore Traffic Police",
-      
-      "birthdate": "14 November 1907",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415",
+      "url": "14 November 1907",
       "death": "3 March 1995",
       "length": 1,
       "order": 14,
-      "birthplace": "Idaho",
-      "numofchildren": 3,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415"
+      "birthplace": "Idaho"
     },
     {
       "name": "Central City Police",
-      
-      "birthdate": "23 June 1910",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Lahore%20Police.JPG?v=1669236425201",
+      "url": "23 June 1910",
       "death": "27 January 2008",
       "length": 13,
       "order": 15,
-      "birthplace": "Utah",
-      "numofchildren": 5,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Lahore%20Police.JPG?v=1669236425201"
+      "birthplace": "Utah"
+      
     },
     {
       "name": "BiseLahore",
-      
-      "birthdate": "21 August 1927",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Bise%20Lahore.JPG?v=1669236443170",
+      "url": "21 August 1927",
       "death": "2 January 2018",
       "length": 10,
       "order": 16,
-      "birthplace": "Utah",
-      "numofchildren": 3,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Bise%20Lahore.JPG?v=1669236443170"
+      "birthplace": "Utah"
+      
     },
     {
       "name": "Arfa Technologies",
-      
-      "birthdate": "9 September 1924",
+      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Arfa.JPG?v=1669236475768",
+      "url": "9 September 1924",
       "death": null,
       "length": 2,
       "order": 17,
-      "birthplace": "Utah",
-      "numofchildren": 10,
-      "imageurl": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Arfa.JPG?v=1669236475768"
+      "birthplace": "Utah"
+      
     }
   ]
 }
