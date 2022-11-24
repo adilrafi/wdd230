@@ -15,15 +15,12 @@ async function getCompanies(){
     let h1 = document.createElement('h1');
 
     let website = document.createElement('a');
-    let phone = document.createElement('p');
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the company name and phone number
     h1.textContent = `${company.companyName}`;
   
   
-
-    phone.textContent=`${company.phone}`;
     website.textContent= `${company.url}`;
     website.setAttribute('href', company.url);
 
@@ -37,8 +34,6 @@ async function getCompanies(){
     // Add/append the section(card) with the h2 element
     card.appendChild(portrait);
     card.appendChild(h1);
-
-    card.appendChild(phone);
     card.appendChild(website);
 
    
