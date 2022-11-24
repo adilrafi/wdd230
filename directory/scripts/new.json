@@ -3,20 +3,17 @@
     {
         "companyName": "Lahore Development Authoriy",
         "url": "https://lda.gop.pk/website/",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LDA.JPG?v=1669236328004",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LDA.JPG?v=1669236328004",
         "phone": "563-880-5078"
     },
     {
         "companyName": "Walled City Lahore",
         "url": "http://walledcitylahore.gop.pk/",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Walled%20City.JPG?v=1669236337313",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Walled%20City.JPG?v=1669236337313"
     },
     {
         "companyName": "Smart City Lahore",
         "url": "https://www.lahoresmartcitypk.com/",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Smart%20City.JPG?v=1669236346836",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Smart%20City.JPG?v=1669236346836"
     },
     {
@@ -27,40 +24,27 @@
     {
         "companyName": "zameen.com",
         "url": "https://www.zameen.com/Homes/Lahore-1-1.html",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123"
     },
     {
         "companyName": "Lahore Traffic Police",
         "url": "https://ctplahore.gop.pk/",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415"
     },
     {
         "companyName": "Central City Police",
         "url": "https://lahorepolice.punjab.gov.pk/",
-        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Lahore%20Police.JPG?v=1669236425201",
         "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Lahore%20Police.JPG?v=1669236425201"
     },
     {
-        "companyName": "Guttenberg Industries",
-        "url": "https://www.guttenbergindustries.com/",
-        "logo-original": "https://www.guttenbergindustries.com/wp-content/uploads/2016/08/gb_logo@2x-1.png",
-        "logo": "https://evasimonbyui.github.io/wdd230/lesson4/images/guttenberg-industries1.webp",
-        "address1": "603 S. Lincoln St.",
-        "address2": "Garnavillo, IA 52049",
-        "phone": "(563) 964-1000",
-        "chamberMemberType": "bronze" 
+        "companyName": "BiseLahore",
+        "url": "https://www.biselahore.com/",
+        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Bise%20Lahore.JPG?v=1669236443170"
     },
     {
-        "companyName": "Luana Bank",
-        "url": "https://luanasavingsbank.com/",
-        "logo-original": "https://www.claytoncountyiowa.com/business/luana-savings-bank",
-        "logo": "https://evasimonbyui.github.io/wdd230/lesson4/images/luana-bank1.webp",
-        "address1": "100 Harvest Dr.",
-        "address2": "Luana, IA 52156",
-        "phone": "(563) 539 - 2166",
-        "chamberMemberType": "bronze" 
+        "companyName": "Arfa Technologies",
+        "url": "https://arfatechnologies.com/",
+        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Arfa.JPG?v=1669236475768"
     }
    
 ]}
