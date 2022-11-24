@@ -22,27 +22,19 @@
     {
         "companyName": "Pakistan Cricket Board",
         "url": "https://www.pcb.com.pk/",
-        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/PCB.JPG?v=1669236355879",
+        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/PCB.JPG?v=1669236355879"
     },
     {
-        "companyName": "Thomas Dairy Bar",
-        "url": "https://www.claytoncountyiowa.com/",
-        "logo-original": "https://www.yelp.com/biz_photos/thoma-dairy-bar-cafe-garnavillo?select=PoH3J794R3tKY9B7UQ84Wg",
-        "logo": "https://evasimonbyui.github.io/wdd230/lesson4/images/thomas-dairy-bar1.webp",
-        "address1": "103 N Main Street",
-        "address2": "Garnavillo, IA 52049",
-        "phone": "563-964-2212",
-        "chamberMemberType": "silver" 
+        "companyName": "zameen.com",
+        "url": "https://www.zameen.com/Homes/Lahore-1-1.html",
+        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123",
+        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/Zameen.JPG?v=1669236372123"
     },
     {
-        "companyName": "Clayton Ridge School District",
-        "url": "https://www.claytonridge.k12.ia.us",
-        "logo-original": "https://www.claytonridgeschools.com/wp-content/uploads/2022/02/800-Clayton-Ridge-Logo.png",
-        "logo": "https://evasimonbyui.github.io/wdd230/lesson4/images/clayton-ridge-school.webp",
-        "address1": "131 South River Park Dr.",
-        "address2": "Guttenberg, Iowa 52052",
-        "phone": "563-252-2341",
-        "chamberMemberType": "NP" 
+        "companyName": "Lahore Traffic Police",
+        "url": "https://ctplahore.gop.pk/",
+        "logo-original": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415",
+        "logo": "https://cdn.glitch.global/08d47b1a-f6f2-4a8a-bcbe-cde48b5443a0/LTP.JPG?v=1669236412415"
     },
     {
         "companyName": "Guttenberg Motel",
