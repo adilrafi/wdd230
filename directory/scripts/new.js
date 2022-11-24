@@ -12,7 +12,7 @@ async function getCompanies(){
   
     // Create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let h1 = document.createElement('h1');
 
     let website = document.createElement('a');
     let portrait = document.createElement('img');
@@ -33,7 +33,7 @@ async function getCompanies(){
   
     // Add/append the section(card) with the h2 element
     card.appendChild(portrait);
-    card.appendChild(h2);
+    card.appendChild(h1);
 
     card.appendChild(website);
 
