@@ -222,7 +222,7 @@ img[data-src] {
     padding: 1rem;
     border: solid 5px white;
     background-color: #4cc9f0;
-    max-width: 180px;
+    max-width: 200px;
 }
 .cards section * {
     display: block;
