@@ -1,4 +1,4 @@
-const requestURL = 'https://adilrafi.github.io/wdd230/directory/scripts/data.json'
+const requestURL = 'https://evasimonbyui.github.io/wdd230/lesson4/json/data.json'
 
 fetch(requestURL)
   .then(function (response) {
