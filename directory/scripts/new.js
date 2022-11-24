@@ -13,6 +13,7 @@ async function getCompanies(){
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+
     let website = document.createElement('a');
     let phone = document.createElement('p');
     let portrait = document.createElement('img');
@@ -21,6 +22,7 @@ async function getCompanies(){
     h2.textContent = `${company.companyName}`;
   
   
+
     phone.textContent=`${company.phone}`;
     website.textContent= `${company.url}`;
     website.setAttribute('href', company.url);
@@ -35,8 +37,7 @@ async function getCompanies(){
     // Add/append the section(card) with the h2 element
     card.appendChild(portrait);
     card.appendChild(h2);
-    card.appendChild(address1);
-    card.appendChild(address2);
+
     card.appendChild(phone);
     card.appendChild(website);
 
