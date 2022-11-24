@@ -41,6 +41,10 @@ header {
     flex-direction: column;
 }
 
+header img {
+    width: 150px;
+    height: auto;
+}
 
 .heading h1 {
     font-size: 25px;
@@ -155,44 +159,6 @@ nav a:hover {
 nav ul.hide {
     display: none;
 }
-
-
-.mygallery {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 320px;
-    justify-content: center;
-    grid-row-gap: 10px;
-    padding: 10px;
-    margin-bottom: auto;
-}
-
-figure{
-    margin: 0 auto;
-}
-
-img[data-src] {
-    /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */
-    filter: blur(3px);
-}
-
-.mygallery figcaption {
-    background-color: #4cc9f0;
-    border: thin silver solid;
-    padding: 5px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-   
-}
-
-
- .mygallery img {
-    filter: blur(0px);
-    transition: filter 0.6s;
-    max-width:100%; 
-}
-
 
 
 #copy {
