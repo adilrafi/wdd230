@@ -35,6 +35,6 @@ function displayResults(data) {
     description.textContent = desc;
     let icon = data.weather[0].icon;
     caption.textContent = `Fairbanks, Alaska Weather: ${desc} icon`;
-    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@3x.png`;
     weatherIcon.alt = `Fairbanks, Alaska Weather:  ${desc} icon`;
 }
