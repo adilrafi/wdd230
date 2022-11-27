@@ -24,6 +24,7 @@ fetch(apiURL)
         feels_like.textContent = jsObject.main.feels_like;
         speed.textContent = jsObject.wind.speed;
         humidity.textContent = jsObject.main.humidity;
+        let icon = data.weather[0].icon;
         weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
         
