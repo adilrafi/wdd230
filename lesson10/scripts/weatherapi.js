@@ -37,6 +37,6 @@ function displayResults(data) {
     description.textContent = desc;
     let icon = data.weather[0].icon;
     caption.textContent = `Guttenberg, Iowa Weather: ${desc} icon`;
-    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-    weatherIcon.alt = `Guttenberg, Iowa Weather:  ${desc} icon`;
+    weathericon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+    weathericon.alt = `Guttenberg, Iowa Weather:  ${desc} icon`;
 }
