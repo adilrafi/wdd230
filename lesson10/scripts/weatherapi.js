@@ -1,7 +1,8 @@
 // select HTML elements in the document
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const temperature = document.querySelector('#temperature');
+const description = document.querySelector('#currently');
+const weatherIcon = document.querySelector('#weathericon');
+const caption = document.querySelector('figcaption');
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/q=Fairbanks&units=imperial&APPID=883a34efdea0db6447c3fa6c1a893fa8';
 
