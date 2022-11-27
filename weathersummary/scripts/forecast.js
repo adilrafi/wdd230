@@ -1,4 +1,4 @@
-const five_dayapiURL = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&APPID=883a34efdea0db6447c3fa6c1a893fa8";
+const five_dayapiURL = "https://api.openweathermap.org/data/2.5/weather?q=Lahore&units=imperial&APPID=883a34efdea0db6447c3fa6c1a893fa8";
 
 
 fetch(five_dayapiURL)
