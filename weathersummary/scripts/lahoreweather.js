@@ -16,6 +16,7 @@ fetch(apiURL)
         const humidity = document.querySelector('#humidity');
         const current_conditions = document.querySelector("#weather");
         const speed = document.querySelector('#speed');
+        const weatherIcon = document.querySelector('#weatherIcon');
 
 
         current_conditions.textContent = jsObject.weather[0].description;
@@ -23,6 +24,7 @@ fetch(apiURL)
         feels_like.textContent = jsObject.main.feels_like;
         speed.textContent = jsObject.wind.speed;
         humidity.textContent = jsObject.main.humidity;
+        weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
         
 
