@@ -3,7 +3,7 @@ const description = document.querySelector('#currently');
 const weatherIcon = document.querySelector('#weatherIcon');
 const caption = document.querySelector('#figcaption');
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=guttenberg%2C+iowa&units=imperial&APPID=65d7dd34ded5c3f6bbd922d70f9ae239';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&APPID=883a34efdea0db6447c3fa6c1a893fa8';
 
 async function apiFetch(){
 try{
