@@ -50,8 +50,6 @@
                 width="600" height="450" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"</iframe>
                 
 
-
-
             <div>
                 <h3>Contact Information</h3>
                 <p><span>&#x1F4CC;</span>C Block, LDA, Walton Road, Lahore, Pakistan 54000</p>
@@ -68,53 +66,34 @@
             </div>
 
 
-
-
-
         </section>
 
-        <div class="contact-form">
-            <h2 class="contact-heading">If you have any questions or concerns please contact us by filling the following
-                form:</h2>
-            <form method="get" action="thanks.html">
+        <form method="get" action="thanks.html">
 
             <fieldset class="form">
 
                 <legend>Applicant Information</legend>
-                <!--full name-->
-                <label class="top" for="name">Full Name(required)
+                <!--first name-->
+                <label class="top" for="name">First Name*
                     <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--I need to add more here, see the requirement page-->
+                <!--last name-->
+                <label class="top" for="name">Last Name*
+                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                <!--title-->
+                <label class="top" for="title">Title
+                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z]{3,}"></label>
 
 
                 <!--email-->
-                <label class="top" for="mail">E-mail Address
-                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
+                <label class="top" for="mail">E-mail Address*
+                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com" required></label>
 
 
                 <!--phone number-->
-                <label class="top" for="phone">Phone Number(required)
+                <label class="top" for="phone">Phone Number*
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
                         required></label>
-
-
-                <!--zip code-->
-                <label class="top" for="zip">ZIP Code(required)
-                    <input class="box" type="number" id="zip" name="zip_code" required></label>
-
             </fieldset>
-
-            <fieldset>
-                <legend>Additional Information</legend>
-                <label class="submitButton" for="msg">Comments</label>
-                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
-            </fieldset>
-
-            <!--form submission button-->
-            <input class="button" type="submit" value="Send Form">
-        </form>
-        </div>
-
 
 
 
