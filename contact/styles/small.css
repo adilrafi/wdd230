@@ -377,6 +377,7 @@ label.submitButton {
 
 .board-of-directors {
     display: grid;
-    grid-template-columns: 250px;
+    grid-template-columns: 350px;
     grid-gap: 20px;
+    max-width: 250px;
 }
