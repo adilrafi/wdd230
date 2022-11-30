@@ -379,5 +379,5 @@ label.submitButton {
     display: grid;
     grid-template-columns: 350px;
     grid-gap: 20px;
-    max-width: 250px;
+    max-width: 50px;
 }
