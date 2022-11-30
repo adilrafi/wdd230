@@ -73,26 +73,18 @@
             <fieldset class="form">
 
                 <legend>Applicant Information</legend>
-                <!--first name-->
-                <label class="top" for="name">First Name*
+                <!--full name-->
+                <label class="top" for="name">Full Name(required)
                     <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--last name-->
-                <label class="top" for="name">Last Name*
-                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
-                <!--title-->
-                <label class="top" for="title">Title
-                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z]{3,}"></label>
-
-
                 <!--email-->
-                <label class="top" for="mail">E-mail Address*
+                <label class="top" for="mail">E-mail Address(required)
                     <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com" required></label>
-
-
                 <!--phone number-->
-                <label class="top" for="phone">Phone Number*
-                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
-                        required></label>
+                <label class="top" for="phone">Phone Number(required)
+                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####" required></label>
+                <!--zip code-->
+                <label class="top" for="zip">Zip Code
+                    <input class="box" type="tel" id="phone" name="zip_code"></label>
             </fieldset>
         
         </form>
