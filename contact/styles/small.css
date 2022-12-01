@@ -39,12 +39,15 @@ footer {
 
 
 header {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     /*the row value stacks the flex items horinzontally (from left to right)*/
     align-items: center;
     /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
     justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 
 }
 
