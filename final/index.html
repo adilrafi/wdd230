@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Eva Simon WDD230: Lesson4 - Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="description" content="Lesson 4 - Chamber of Commerce Home Page - Eva Simon - WDD 230: Web Frontend Development - Brigham Young University - Idaho">
+</head>
+<body onload="modified(), local()">
+    <div id="banner" class="bannerDisplay"></div>
+    <header>
+       <script src="scripts/local.js"></script>
+        <section class="headings"><picture class="header-logo"><img src="images/logo-150px.webp" alt="Default Site Logo" sizes="50vw"
+            srcset="images/logo-150px.webp 150w,
+                    images/logo-200px.webp 200w,
+                    images/logo.webp 300w"></picture>
+        <h1><a href="index.html">North East Iowa Chamber</a></h1>
+        </section>
+        
+        <nav>    
+            <a class="social-media2" href="http://facebook.com/" target="blank">
+                <img src="images/facebook-130px.webp" alt="Facebook Logo"></a>
+            
+            <a class="social-media3" href="http://instagram.com" target="blank">
+                <img src="images/instagram-130px.webp" alt="Instagram Logo"></a>        
+            <button id="hamburgerBtn">
+                <span>&#9776;</span>
+                <span>X</span>
+            </button>
+            
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+        
+    </ul>
+    
+        
+        </nav>
+
+        <aside></aside>
+        
+    </header>
+    
+
+    <main>
+        
+        <section class="hero">
+            <h2>Welcome to North East Iowa!</h2>
+            <img src="images/placeholder1.webp" data-src="images/hero-image400.webp" alt="Guttenberg Iowa" sizes="100vw"
+             srcset="images/hero-image400.webp 400w,
+                     images/hero-image650.webp 650w, 
+                     images/hero-image900.webp 900w">
+                     <form method="get" action="join.html">
+            <button>Join the Chamber</button></form>
+
+
+
+
+        </section>
+        <section class="event">
+            <h2>Upcoming Events:</h2>
+<h3>Motor Mill Holiday Walk</h3>
+<img src="images/lights.webp" alt="Jonathan McIntosh, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons" id="event-image">
+<br><br>
+<p>Join us for our annual Holiday Walk at Motor Mill! Click <a href='https://www.mycountyparks.com/County/Clayton/Park/Motor-Mill-Historic-Site/Events/21607/Holiday-Walk-Motor-Mill-Legends-Locals-and-Limestone.aspx'>here</a> for more details!</p>
+
+        </section>
+        <section class="weather">
+            <h2>Weather:</h2>
+            <img src="" alt="" id="weather-icon">
+            <p><span id="description"></span></p>
+          <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+          <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
+          <p>Wind Chill: <span id="windChill"></span>&deg; F</p>
+          <br>
+          <br>
+          <p>*Weather updates courtesy of openweathermap.org</p>
+
+
+<br>
+        </section>
+
+
+
+        <section class="join">
+            <h2>Join:</h2>
+            <img src="images/sale.png" alt="Black Friday sale image">
+            <p>Join the Chamber this week, and get six months of membership for free!  Click <a href="https://evasimonbyui.github.io/wdd230/lesson4/join.html">here</a> to get started!</p>
+        </section>
+        <section class="news">
+            <h2>News Release:</h2>
+            <h3>The Family Resource Center needs volunteers! </h3>
+            <img src="images/volunteer.webp" alt="Volunteer image from creative commons - https://www.picpedia.org/chalkboard/v/volunteer.html">
+            <p>During the season of gratitude and generosity, please consider giving back to the community by donating your time at the Family Resource Center! We need volunteers who are willing to stock shelves, pack and deliver food to families and individuals in need, sort and organize donations, answer office phone calls, provide transportation to medical appointments, and more.  Please click <a href='https://www.guttenberghospital.org/family-resource-center/volunteer-opportunities/'>here</a> for more information.   </p>
+        </section>
+        <section class="spotlight1">
+            <div id="spotlight1">
+            <h2>Spotlight 1:</h2>
+          
+        </div>
+            </section>
+            <section class="spotlight2">
+                <div id="spotlight2">
+            <h2>Spotlight 2</h2>
+        </div>
+        </section>
+        <section class="spotlight3">
+            <div id="spotlight3">
+            <h2>Spotlight 3</h2>
+        </div>
+        </section>
+
+   
+   
+   
+    </main>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/time.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <footer>
+        <section class="footerInfo">
+              <img src="images/logo-150px.webp" alt="Site Logo">
+    <h3>North East Iowa Chamber of Commerce</h3>
+    <p>106 N Main St, Garnavillo, IA 52049</p>
+    <p>info@northeastiowachamber.com</p>
+    <p>(123)-456-7890</p>
+    <a class="map" href="https://goo.gl/maps/Q5SdbToLxm5BWSYh9" target="blank"><img src="images/mapmarker.png" alt="map marker image"> Location Map</a>
+    <br>
+</section>
+    <br>
+        <p>©<span id="year"></span> NE Iowa Chamber | Eva Simon | Iowa</p>
+        <div id="modified"></div>
+        <br>
+    </footer>
+</body>
+
+</html>
