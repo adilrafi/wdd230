@@ -44,7 +44,7 @@ nav button{
     font-size: 2.2em;
     font-weight: normal;
     vertical-align: top;
-    color: #fee573;
+    color: black;
     padding: 0px 0px 0px 5px;
     line-height: 20px;
     margin: 12px 0px 0px 0px;
@@ -56,7 +56,7 @@ nav button{
 
 }
 nav {
-    background-color: #8b8b8b60;
+    background-color: #4cc9f0;
     grid-row: 3/4;
     padding: 10px;
     border-top: 10px double black;
@@ -174,7 +174,6 @@ body {
     font-family: 'Marcellus', serif;
     text-align: center; 
     margin: 0 auto;
-    background-image: url('https://raw.githubusercontent.com/EvaSimonBYUI/wdd230/main/lesson4/images/bricks3.jpg')
 }
 
 
