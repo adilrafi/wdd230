@@ -123,20 +123,13 @@ p {
     padding: 10px 20px;
 }
 
-footer section.footerInfo{
-    background-color: #4361ee;
-    border-top: 10px double black;
-    border-bottom: 10px double black;
-    padding: 10px;
-    
-}
 
 
 footer {
     margin-top: -10px;
     margin-left: -3px;
     margin-right: -3px;
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: #4361ee;
     color: black;
     height: auto;
     text-align: center;
