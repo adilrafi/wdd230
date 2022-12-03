@@ -270,8 +270,23 @@ display: none;
 
 section.contactinfo img{
     width: 90%;
-   padding: 30px;
+    padding: 30px;
+    display: block;
+    margin: 10px auto;
+    background-color: #4cc9f0;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15px;
+
    }
+
+   .social img {
+    width: 35px;
+}
+
+    .social {
+    text-align: left;
+}
 
 .spotlight1 img {
     position: relative;
