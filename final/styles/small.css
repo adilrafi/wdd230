@@ -268,7 +268,7 @@ div#spotlight1, div#spotlight2 {
 display: none;
 }
 
-section.contactinfo img{
+section.contactinfo {
     width: 90%;
     padding: 30px;
     display: block;
