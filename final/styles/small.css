@@ -124,7 +124,7 @@ p {
 }
 
 footer section.footerInfo{
-    background-color: #8b8b8b76;
+    background-color: #4361ee;
     border-top: 10px double black;
     border-bottom: 10px double black;
     padding: 10px;
@@ -142,7 +142,7 @@ footer {
     margin-left: -3px;
     margin-right: -3px;
     background-color: rgba(0, 0, 0, 0.80);
-    color: #fee573;
+    color: black;
     height: auto;
     text-align: center;
     padding: 0px;
@@ -179,7 +179,7 @@ body {
 
 
 main {
-    background-color: rgba(238, 238, 238, 0.90);
+    background-color: white;
     padding: 10px;
     
 }
