@@ -86,6 +86,21 @@ nav button {
 }
 
 
+.banner-box{
+    position: relative;
+}
+
+.banner-box img {
+    position: relative;
+    width: 90%;
+    margin: 0;
+}
+.h2 {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+}
+
 h2 {
     font-size: 25px;
     text-align: center;
