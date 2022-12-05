@@ -99,8 +99,8 @@ footer {
 
 main {
     padding: 10px;
+    max-width: 1000px;
 }
-
 
 nav {
     background-color: #4cc9f0;
