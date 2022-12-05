@@ -110,6 +110,14 @@ section.event img{
     margin: 0;
    }
 
+section {
+    background-color: rgba(238, 238, 238, 0.5);
+    border: 2px solid;
+    border-color: black;
+    margin-top: 10px;
+    padding: 5px;
+}
+
 .weathersummary {
 
     font-family: 'Yusei Magic', sans-serif;
