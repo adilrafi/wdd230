@@ -104,6 +104,12 @@ main section.hero h2 {
     z-index: 1;
 }
 
+section.event img{
+    position: relative;
+    width: 90%;
+    margin: 0;
+   }
+
 .weathersummary {
 
     font-family: 'Yusei Magic', sans-serif;
@@ -229,14 +235,6 @@ td {
 
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
-}
 
 .contentbox4 {
     display: block;
