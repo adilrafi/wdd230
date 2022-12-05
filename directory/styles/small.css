@@ -24,9 +24,10 @@ footer {
     margin: 0 auto;
     padding-top: 5px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #ff7d00;
+    color: black;
     font-family: 'Source Code Pro', monospace;
+
 }
 
 header {
