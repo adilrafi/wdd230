@@ -108,12 +108,6 @@ section.event img{
     margin: 0;
    }
 
-section.join {
-    position: relative;
-    width: 90%;
-    margin: 0;
-}
-
 section {
     border: 2px solid;
     border-color: #4cc9f0;
@@ -121,7 +115,9 @@ section {
     padding: 5px;
 }
 
-
+.spotlight3, #spotlight3, .join {
+    display: none;
+    }
 
 ul,
 li {
