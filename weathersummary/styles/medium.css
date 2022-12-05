@@ -15,7 +15,7 @@ nav ul.hide {
     display: flex;
 }
 
-.hero {
+main section.hero {
     grid-column: 1/7;
     grid-row: 2;
 }
@@ -24,7 +24,7 @@ main section.hero h2{
     font-size: 2em;
 }
 
-.event {
+main section.event {
     grid-column: 1/5;
     grid-row: 6;
 

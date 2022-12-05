@@ -19,12 +19,12 @@
         font-size: 15px;
     }
 
-    .hero{
+    main section.hero{
         grid-column: 2/4;
         grid-row: 2/4;
     }
 
-    .event{
+    main section.event{
         grid-column: 1/2;
         grid-row: 2;
         }
