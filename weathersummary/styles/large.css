@@ -19,8 +19,9 @@
         font-size: 15px;
     }
 
-    h2 {
-        font-size: 25px;
+    .hero{
+        grid-column: 2/4;
+        grid-row: 2/4;
     }
 
     ul,

@@ -104,42 +104,6 @@ main section.hero h2 {
     z-index: 1;
 }
 
-.banner-box{
-    position: relative;
-}
-
-.banner-box img {
-    position: relative;
-    width: 90%;
-    margin: 0;
-}
-.h2 {
-    position: absolute;
-    left: 5%;
-    right: 5%;
-}
-
-h2 {
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
-.banner-box {
-    /*This is for my banner Image (Idaho Farm) on my Preston page*/
-    display: block;
-    position: relative;
-    
-}
-
-.banner-image {
-    /*This is to display my banner image with the right dimensions*/
-    width: 100%;
-    height: auto;
-
-}
-
 .weathersummary {
 
     font-family: 'Yusei Magic', sans-serif;

@@ -15,6 +15,15 @@ nav ul.hide {
     display: flex;
 }
 
+.hero {
+    grid-column: 1/7;
+    grid-row: 2;
+}
+
+main section.hero h2{
+    font-size: 2em;
+}
+
 .weathersummary{
     position: absolute;
     font-size: 15px; 
