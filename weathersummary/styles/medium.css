@@ -42,10 +42,10 @@ main section.event {
 
 }
 
-section.joinForm {
+.join {
     grid-column: 1/4;
     min-width: 215px;
- }
+}
 
 
 
