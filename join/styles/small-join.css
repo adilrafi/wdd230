@@ -108,19 +108,7 @@ footer {
 
 }
 
-header,
-main,
-footer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 5px;
 
-}
-
-nav {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
 picture {
     padding: 5px;
