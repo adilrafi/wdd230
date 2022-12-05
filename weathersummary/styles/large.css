@@ -19,6 +19,13 @@
         font-size: 15px;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        column-gap: 10px; 
+
+    }
+
     main section.hero{
         grid-column: 2/4;
         grid-row: 2/4;
