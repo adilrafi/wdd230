@@ -42,6 +42,11 @@ main section.event {
 
 }
 
+section.joinForm {
+    grid-column: 1/4;
+    min-width: 215px;
+ }
+
 
 
 

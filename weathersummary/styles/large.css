@@ -46,6 +46,10 @@
         grid-row: 3;
     }
     
+    section.joinForm {
+        grid-column: 1;
+        max-width: 350px;
+    }
     
     .contentbox4 {
         display: grid;
