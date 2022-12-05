@@ -30,10 +30,10 @@ main section.event {
 
 }
 
-.weathersummary{
-    position: absolute;
-    font-size: 15px; 
-    
+.weather {
+    grid-column: 5/7;
+    grid-row: 6;
+
 }
 
 
