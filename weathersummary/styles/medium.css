@@ -43,11 +43,34 @@ main section.event {
 }
 
 .join {
-    grid-column: 1/4;
-    min-width: 215px;
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    grid-column: 1/7;
+    grid-row: 5;
+
 }
 
+section.join img{
+    width: 20%;
+    float: right;
+    margin-top: -50px;
+   }
 
+.news {
+    grid-column: 1/7;
+    grid-row: 3;
+}
+
+.news p, .join p {
+    padding: 30px;
+}
+
+section.news img{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
 
 
 

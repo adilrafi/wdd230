@@ -229,6 +229,12 @@ td {
 
 }
 
+section.news img{
+    width: 90%;
+   padding: 30px;
+   }
+
+
 
 .contentbox4 {
     display: block;
