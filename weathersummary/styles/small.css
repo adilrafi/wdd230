@@ -264,7 +264,11 @@ td {
     height: auto;
 }
 
-/*This is my Google Map*/
+body {
+    background-image: url('https://raw.githubusercontent.com/EvaSimonBYUI/wdd230/main/lesson4/images/bricks3.jpg')
+}
+
+
 
 
 #copy {
