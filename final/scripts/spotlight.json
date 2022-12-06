@@ -1,0 +1,72 @@
+{"companies":  
+[
+
+    {
+        "companyName": "Orange Line Train",
+        "url": "https://web.olmrts.com.pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/Orange.JPG?v=1670289085077",
+        "address1": "Orange Line Main Depot, Dera Gujraan",
+        "address2": "near GT Road, Lahore",
+        "phone": "(111)112-1133",
+        "chamberMemberType": 1
+    },
+    {
+        "companyName": "Lahore Electric Supply Company",
+        "url": "https://www.lesco.gov.pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/Lesco.JPG?v=1670289819886",
+        "address1": "22/A Queens Road Lahore",
+        "address2": "22/A Queens Road Lahore",
+        "phone": "992-048-0101",
+        "chamberMemberType": 3 
+    },
+    {
+        "companyName": "Water & Sanitation Agency, Lahore",
+        "url": "https://wasa.punjab.gov.pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/Wasa.JPG?v=1670290113294",
+        "address1": "28995 Lansing Rd",
+        "address2": "Dyersville, IA",
+        "phone": "239-926-8439",
+        "chamberMemberType": 2
+    },
+    {
+        "companyName": "Sui Northern Gas Pipe Lines",
+        "url": "https://www.sngpl.com.pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/Gas.JPG?v=1670290427823",
+        "address1": "5th Floor, Gas House, 21-Kashmir Road,",
+        "address2": "P.O Box No. 56 , Lahore 54000, Pakistan",
+        "phone": "990-830-732",
+        "chamberMemberType": 2 
+    },
+
+
+
+    {
+        "companyName": "National Bank of Pakistan",
+        "url": "https://www.nbp.com.pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/NBP.JPG?v=1670290612549",
+        "address1": "NBP Building, I.I.",
+        "address2": "Chundrigar Road Karachi, Pakistan",
+        "phone": "219-922-0100",
+        "chamberMemberType": 1
+    },
+    {
+        "companyName": "Standard Chartered Bank",
+        "url": "https://www.sc.com/pk/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/SCB.JPG?v=1670290930317",
+        "address1": "Client care unit ,Standard Chartered Bank Pakistan limited First Floor",
+        "address2": "NJI Building , I.I Chundrigar Road Karachi",
+        "phone": "111-002-002",
+        "chamberMemberType": "3" 
+    },
+    {
+        "companyName": "Defence Housing Authority Lahore",
+        "url": "https://dhalahore.org/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/DHA.JPG?v=1670291138433",
+        "address1": "Sector 'A' Phase - VI",
+        "address2": "DHA Lahore, Punjab 54810",
+        "phone": "(042) 111 342 547",
+        "chamberMemberType": 2 
+    }
+   
+]}
+
