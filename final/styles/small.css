@@ -1,39 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Roboto+Mono:wght@500&family=Source+Code+Pro:ital@1&display=swap');
+
+header,
+h1,
+h2,
+footer,
+ul,
+il {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+nav {
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+footer {
+
+    color: black;
+    background-color: #4361ee;
+    text-align: center;
+
+}
+
+.cakes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #ff7d00;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+
+}
 
 
 
-/* ---------  HEADER --------- */
 header {
-    display: grid;
-    grid-template-rows:  repeat(4, auto);
-    background-color: #4361ee;    
-   }
-header .headings h1 a { /*h1 header wording*/
-    color:  black;
-    font-size: 25px;
-    width: 150px;
-    margin-left: -10px;
-    margin-top: 25px;
-    text-decoration: none;
-    
-}
-.headings { /*header logo and h1 header wording combo*/
     display: flex;
-    background-color: transparent;
-    border: none;
-    padding: 0px 20px 15px 0px;
-    width: 280px;
-    margin: -8px -10px 0 -7px;
-   
- }
- header .headings img{ /*header image*/
-    margin: 20px 0px 0px 20px;
-    width: 150px;
+    flex-direction: row;
+    /*the row value stacks the flex items horinzontally (from left to right)*/
+    align-items: center;
+    /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
+    justify-content: center;
+
 }
-aside {  /*date in the header*/
-    font-size: 1.2em;
-    margin-top: -20px;
-    color:  #fee573;
-    grid-row: 2/3;
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 150px;
+    height: auto;
 }
 
 .heading h1 {
@@ -50,267 +72,19 @@ aside {  /*date in the header*/
     color: white;
 }
 
-
-/* ---------  NAVIGATION ---------   */
-nav button{
-    background: transparent;
-    border: none;
-    font-size: 2.2em;
-    font-weight: normal;
-    vertical-align: top;
-    color: black;
-    padding: 0px 0px 0px 5px;
-    line-height: 20px;
-    margin: 12px 0px 0px 0px;
-    text-shadow: 1px 1px black, 
-    1px 2px 7px #000000,
-    1px 2px 10px #030101,
-    3px 3px 12px black,
-    0px 0px 5px rgb(40, 40, 171);
-
-}
 nav {
-    background-color: #4cc9f0;
-    grid-row: 3/4;
-    padding: 10px;
-    border-top: 10px double black;
-    border-bottom: 10px double black;
-    
-
-
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li a {
-    font-size: 1.4em;
-    display: flex;
-    padding: 1rem 1.9vw;
-    text-decoration: none;
-    color: #fee573;
-    border-top: 1px solid #fee573;
-    text-shadow: 1px 1px black, 
-    1px 2px 7px #000000,
-    1px 2px 10px #030101,
-    3px 3px 12px black;
+    font-size: 20px;
+    width: 100%;
 }
 
-nav ul li:active a{
-    background-color: rgba(199, 199, 199, 0.641);
-    }
-nav ul li a:hover{
-    background-color: rgba(255, 255, 255, 0.4);
-}
-nav ul {
-    display: none;
-}
-nav ul.open {
-    display: block;
-}
-#hamburgerBtn span:nth-child(1){display: block;}
-#hamburgerBtn span:nth-child(2){display: none;}
- 
-#hamburgerBtn.open span:nth-child(1){display: none;}
-#hamburgerBtn.open span:nth-child(2){display: block;}
-
-
-
-a img {  /*social media header images*/
-    width: 33px;
-    padding: 5px 5px 0px 5px;
-}
-
-
-/* ---------  FOOTER ---------  */
-footer img {
-    width: 90px;   
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: white;
 
 }
 
-
-
-
-p {
-    text-align: center;
-    padding: 10px 20px;
-}
-
-
-
-footer {
-    margin-top: -10px;
-    margin-left: -3px;
-    margin-right: -3px;
-    background-color: #4361ee;
-    color: black;
-    height: auto;
-    text-align: center;
-    padding: 0px;
-    font-size: 1em;
-
-
-}
-footer p {
-    padding: 0;
-    margin-top: -.6em;
-
-}
-footer a img { /*map pointer*/
-    width: 10px;    
-}
-footer a.map, p span#visit{
-    color: #fee573;
-    font-size: 1em;
-    text-decoration: none;
-} 
-
-
-
-
-
-/* ---------  MAIN CONTENT ---------  */
-body {
-    font-size: .98em; 
-    font-family: 'Marcellus', serif;
-    text-align: center; 
-    margin: 0 auto;
-}
-
-
-
-main {
-    background-color: white;
-    padding: 10px;
-    
-}
-
-
-
-
-div {
-    margin: 5px;
-}
-
-
-ul {
-    margin-left: 35px;
-}
-
-section {
-    background-color: rgba(238, 238, 238, 0.5);
-    border: 2px solid;
-    border-color: #b2b6c1;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-/*
-main section div#spotlight1 h2{
-   background-color:rgba(255, 255, 255, 0.4);
-   margin: -15px 0px 0px -10px;
-   padding: 10px 30px 10px 10px;
-}
-*/
-
-
-main .cards img {
-    width: 250px;
-    padding-top: 10px;
-    text-align: center;
-    
-}
-main .cards a {
-    font-size: .9em;
-
-}
-main section p {
-    padding: 0px;
-    margin-top: -10px;
-}
-
-.cards section {
-    height: 500px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-section.spotlight1 {
-    background-color: rgba(238, 238, 238, 0.5);
-    border-top: 2px solid #b2b6c1;
-    border-left: 2px solid #b2b6c1;
-    border-right: 2px solid #b2b6c1;
-    border-bottom: none;
-    margin-top: 10px;
-    padding: 5px;
-
-}
-section.spotlight2 {
-    background-color: rgba(238, 238, 238, 0.5);
-    border-bottom: 2px solid #b2b6c1;
-    border-left: 2px solid #b2b6c1;
-    border-right: 2px solid #b2b6c1;
-    border-top: none;
-    margin-top: -10px;
-    padding: 5px;
-
-}
-
-div#spotlight1, div#spotlight2 {
-    border: 2px dashed;
-    border-color: #b2b6c1;
-    margin-top: 10px;
-    padding: 10px;
-}
-.spotlight3, #spotlight3, .join {
-display: none;
-}
-
-section.contactinfo {
-    width: 90%;
-    padding: 30px;
-    display: block;
-    margin: 10px auto;
-    background-color: #4cc9f0;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
-
-   }
-
-.social img {
-    width: 35px;
-}
-
-.social {
-    text-align: left;
-}
-
-.spotlight1 img {
-    position: relative;
-    width: 70%;
-    margin: 0;
-   }
-
-.spotlight2 img {
-    position: relative;
-    width: 70%;
-    margin: 0;
-   }
-
-.spotlight3 img {
-    position: relative;
-    width: 70%;
-    margin: 0;
-   }   
-
-section.event img{
-    position: relative;
-    width: 90%;
-    margin: 0;
-   }
 
 main section.hero{
     position: relative;
@@ -323,220 +97,176 @@ main section.hero img {
 }
 main section.hero h2 {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.4);
-    text-shadow: 1px 1px #ffae00d3;
     left: 5%;
     right: 5%;
     z-index: 1;
 }
-main section.hero button{
-    position: absolute;
-    background-color: #ff8000d6;
-    font-size: 1.2em;
-    color:rgba(0, 0, 0, 0.80);
-    padding: 8px;
-    bottom: 5%;
-    right: 8%;
-    z-index: 1;
-}
-.bannerDisplay{
-    margin: 0px;
-    display: block;
-    grid-row: 1/2;
-    padding: 10px;
-    font-size: 1.2rem;
-    height: auto;
-    z-index: 1;
-    color: #ffd000;
-    background-color: #767676c0;
-    text-shadow: 1px 1px black, 
-                 1px 2px 7px #000000,
-                 1px 2px 10px #030101,
-                 3px 3px 12px black,
-                 0px 0px 5px rgb(40, 40, 171);
-    border-top: 10px double black; 
-    border-bottom: 10px double black;            
-    
-   
 
-}
-
-section.lazy-loading img{
+section.event img{
     position: relative;
     width: 90%;
-    margin: 10px;
-}
-section.lazy-loading h2 {
- display: none;
+    margin: 0;
+   }
 
-}
-
-/* ---------  Join Form ---------  */
-form fieldset {
-    margin: 5px;
-    border: 2px dashed rgba(0, 0, 0, 0.20);
-    padding: 10px;
+section {
+    border: 2px solid;
+    border-color: #4cc9f0;
+    margin-top: 10px;
+    padding: 5px;
 }
 
-form legend{
-    color: rgba(0, 0, 0, 0.80);
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    font-size: 1rem;
-}
-
-form label.contact, form label.company, form div {
-    display: block;
-    padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.80);
-    font-size: .9rem;
-    text-align: left;
-}
-
-form label.contact input, form label.contact select, form label.company input, form label.company select{
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 3px;
-    padding: .75rem;
-    color: rgba(0, 0, 0, 0.80);
-    width: 87%;
-    max-width: 20rem;
-    background-color: rgba(255, 255, 255, 0.223);
-
-}
-
-
-
-form input.submitBtn {
-    font-size: 1em;
-    border: none;
-    background-color:  #fee573;
-    color: black;
-    border-radius: 5px;
-    padding: .75rem 1.5rem;
-    margin: 2%;
-    width: 96%;
-    max-width: 20rem;
-    border: 1px solid rgba(0, 0, 0, 0.60)
-}
-
-form label.contact input:required, form label.company input:required { /*left bar on required input forms - requirements not met*/
- border-left: rgb(255, 204, 0, .3) solid 6px;
-}
-
-form label.contact input:required:valid, form label.company input:required:valid { /*left bar on required input forms - requirements met*/
-    border-left: rgb(0, 0, 0, .3) solid 6px;
-}
-
-form label.memberLevel {
-    display: block;
-    text-align: left;
-    padding: 1rem 0;
-    color: #555;
-    font-size: 1rem;
-
-}
-
-input[type='radio'] {
-    transform: scale(1.5);
-    accent-color: #ffd000;
+.spotlight3, #spotlight3, .join {
+    display: none;
     }
 
-section.testimonials {
-    display: none;
-}    
+ul,
+li {
+    font-size: 18px;
+}
 
-    /* ---------  Membership Table ---------  */
-th, td {
+
+footer {
+    color: black;
+    background-color: #4361ee;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+
+
+
+
+picture {
+    padding: 5px;
+}
+
+
+main {
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #4cc9f0;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    /*this removes the bullet points on the side of each list item*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li a {
+    display: block;
+    /*this places the nav in a block for the small screen view*/
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    /* this removes the underline from every list item*/
+    font-size: 1rem;
+}
+
+nav ul li.active a {
+    background-color: #001524;
+    color: white;
+
+
+}
+
+/*always place .active before "hover" so it can work properly*/
+
+
+nav a:hover {
+    background-color: #3F37C9;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+table,
+th,
+td {
     border: 1px solid black;
-    padding: 10px 3px 10px 3px;
-    font-size: 1em;   
-}
-th {
-    background-color: #fee573;
-}
-
-table {
-    width: 100%;
-    background-color:rgba(255, 234, 7, 0.1);
     border-collapse: collapse;
+    padding: 2px;
 
-}
-tbody tr:nth-child(odd) {
-	background-color: rgba(255, 234, 7, 0.1) ;
-}
-table#membership td:nth-child(1) {
-    text-align: left;
-    padding: 10px;
-    width: 30px;
-}
-
-table th:nth-child(2), table th:nth-child(3), table th:nth-child(4), table th:nth-child(5) {
-   max-width: 10px;
-
-}
-section.thankyou {
- grid-column: 1/7;
- background-color: #fee57370;
-}
-
- /* ---------  Discover Page ---------  */
-.to-do{
-    display: none;
 
 }
 
-.to-do img  {
+th,
+td {
+    text-align: center;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flowers {
+    float: right;
+    box-shadow: 0 0 20px #111;
+    margin: 0 0 0 2%;
+    width: 350px;
+
+}
+
+section.news img{
     width: 90%;
+   padding: 30px;
+   }
+
+
+
+.contentbox4 {
+    display: block;
+    margin: 10px auto;
     padding: 10px;
+    background-color: #4cc9f0;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15px;
 }
 
-.to-do p {
- margin: 10px;
+.social {
+    text-align: left;
 }
 
-.to-do h2{
-    display: none
+.social img {
+    width: 35px;
 }
 
-img#effigy {
-    position: relative;
-    margin-top: -25px;
-    padding: 10px;
-    
+.map {
+    width: 100%;
+    height: auto;
 }
 
-img#lock10{
-    position: relative;
-    width: 50%;
-    margin-top: -25px;
-    padding: 10px;
-}    
-section.effigy {
-    background-color:rgba(255, 234, 7, .1);
-    margin-top: 0px;
-   
-}
-
-p#effigy, p#lock10 {
-    padding: 20px;
+body {
+    background-image: url('https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/watercolor-stains-abstract-background_23-2149107181.webp?v=1670266160892')
 }
 
 
-section.lock10 {
-    background-color: rgba(255, 234, 7, .2);
-}
 
-.facts {
-    padding: 0px 0px 0px 0px;
-    background-color: rgba(238, 238, 238, 0.4);
-}
 
-img#contact {
-    position: relative;
-    margin-top: -25px;
-    padding: 10px;
-    width: 95%;
-    
+#copy {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
