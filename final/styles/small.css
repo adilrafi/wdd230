@@ -286,22 +286,11 @@ main section.hero img {
 }
 main section.hero h2 {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.4);
-    text-shadow: 1px 1px #ffae00d3;
     left: 5%;
     right: 5%;
     z-index: 1;
 }
-main section.hero button{
-    position: absolute;
-    background-color: #ff8000d6;
-    font-size: 1.2em;
-    color:rgba(0, 0, 0, 0.80);
-    padding: 8px;
-    bottom: 5%;
-    right: 8%;
-    z-index: 1;
-}
+
 .bannerDisplay{
     margin: 0px;
     display: block;
