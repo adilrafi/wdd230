@@ -66,6 +66,24 @@
         "address2": "DHA Lahore, Punjab 54810",
         "phone": "(042) 111 342 547",
         "chamberMemberType": 2 
+    },
+    {
+        "companyName": "Pearl Continental Hotels",
+        "url": "https://www.pchotels.com/pclahore",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/PC.JPG?v=1670293158278",
+        "address1": "PEARL-CONTINENTAL HOTEL LAHORE",
+        "address2": "PEARL-CONTINENTAL HOTEL LAHORE",
+        "phone": "(42) 111 505 505",
+        "chamberMemberType": 1 
+    },
+    {
+        "companyName": "Avari Hotel Lahore",
+        "url": "https://avari.com/avari-hotel-lahore/",
+        "logo": "https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/Avari.JPG?v=1670293417894",
+        "address1": "Avari Hotel, Mall Road, LAHORE",
+        "address2": "Avari Hotel, Mall Road, LAHORE",
+        "phone": "213-566-0090",
+        "chamberMemberType": 1 
     }
    
 ]}
