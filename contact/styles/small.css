@@ -374,3 +374,11 @@ label.submitButton {
 body {
     background-image: url('https://cdn.glitch.global/847511ff-ebfd-4b7a-b0ff-83c4957d6ffa/watercolor-stains-abstract-background_23-2149107181.webp?v=1670266160892')
 }
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}

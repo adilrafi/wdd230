@@ -260,3 +260,11 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}
