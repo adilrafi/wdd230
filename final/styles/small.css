@@ -51,6 +51,7 @@ header {
 .heading {
     display: flex;
     flex-direction: column;
+    border: none;
 }
 
 header img {
