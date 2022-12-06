@@ -315,3 +315,11 @@ section.lazy-loading h2 {
  display: none;
 
 }
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}
