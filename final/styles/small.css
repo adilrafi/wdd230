@@ -158,11 +158,11 @@ body {
 
 
 
-main {
+/*main {
     background-color: rgba(238, 238, 238, 0.90);
     padding: 10px;
     
-}
+}*/
 
 
 
@@ -177,9 +177,9 @@ ul {
 }
 
 section {
-    background-color: rgba(238, 238, 238, 0.5);
+    background-color: #4cc9f0;
     border: 2px solid;
-    border-color: #b2b6c1;
+    border-color: white;
     margin-top: 10px;
     padding: 5px;
 }
