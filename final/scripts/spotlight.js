@@ -32,7 +32,7 @@ async function spotLights() {
       function random(companies) {
         let level = 3;
          while (level > 2) {
-         var randomCompany = Math.floor(Math.random() *9);
+         var randomCompany = Math.floor(Math.random() *7);
          var randomComp = companies[randomCompany];
          level = randomComp.chamberMemberType;
          }
