@@ -15,40 +15,137 @@ nav ul.hide {
     display: flex;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px; 
+
+
+
+
+
+
+
+
+
+
+.join {
+    display: block;
+    background-color: rgba(238, 238, 238, 0.5);
+    border: 2px solid;
+    border-color: #b2b6c1;
+    margin-top: 10px;
+    padding: 5px;
+    grid-column: 1/7;
+    grid-row: 5;
+
 }
 
-main section.hero {
+
+
+main {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 10px; 
+}
+.hero {
     grid-column: 1/7;
     grid-row: 2;
 }
-
-main section.hero h2{
-    font-size: 2em;
+.news {
+    grid-column: 1/7;
+    grid-row: 3;
+}
+.news p, .join p {
+    padding: 30px;
+}
+section.spotlight1{
+    grid-column: 1/4;
+    grid-row: 4; 
+    background-color: rgba(238, 238, 238, 0.5);
+    border-bottom: 2px solid #b2b6c1;
+    border-top: 2px solid #b2b6c1;
+    border-left: 2px solid #b2b6c1;
+    border-right: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+section.spotlight2{
+    grid-column: 4/7;
+    grid-row: 4; 
+    background-color: rgba(238, 238, 238, 0.5);
+    border-bottom: 2px solid #b2b6c1;
+    border-top: 2px solid #b2b6c1;
+    border-right: 2px solid #b2b6c1;
+    border-left: none;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 5px;
 }
 
-main section.event {
+
+.event {
     grid-column: 1/5;
     grid-row: 6;
 
 }
-
 .weather {
     grid-column: 5/7;
     grid-row: 6;
 
 }
 
-.join {
-    display: block;
-    margin-top: 10px;
-    padding: 5px;
-    grid-column: 1/7;
-    grid-row: 5;
+main section.hero h2{
+    font-size: 2em;
+}
+main section.hero button{
+    font-size: 1.5em;
+}
 
+
+section.lazy-loading {
+    grid-column: 1/4;
+}
+
+.to-do{
+    display: none;
+
+}
+
+
+section.facts{
+    grid-column: 4/7;
+    grid-row: 1;
+    height: auto;
+}
+
+section.joinForm {
+   grid-column: 1/4;
+   min-width: 215px;
+}
+section.membership {
+   grid-column: 4/7;
+}
+
+table {
+    min-width: 311px;
+}
+
+table td:nth-child(1) {
+    width: 30%;
+}
+table {
+    width: 95%;
+    margin-left: 2%;
+
+}
+
+main .cards {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 20px; 
+}
+.cards section {
+    width: 100%;
 }
 
 section.join img{
@@ -57,28 +154,10 @@ section.join img{
     margin-top: -50px;
    }
 
-.news {
-    grid-column: 1/7;
-    grid-row: 3;
-}
-
-.news p, .join p {
-    padding: 30px;
-}
-
 section.news img{
     width: 50%;
     float: left;
     padding: 20px;
-}
-
-
-
-
-
-
-
-
-
+   }   
 
 }
