@@ -1,7 +1,7 @@
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 async function spotLights() {
     try {
-      let requestURL = 'https://evasimonbyui.github.io/wdd230/lesson4/json/data.json';
+      let requestURL = 'https://adilrafi.github.io/wdd230/final/scripts/spotlight.json';
       const response = await fetch(requestURL);
       if (response.ok) {
         const data = await response.json();
